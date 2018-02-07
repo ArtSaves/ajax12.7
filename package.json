@@ -1,0 +1,23 @@
+{
+  "name": "dev7.6task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtSaves/dev7.6task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtSaves/dev7.6task/issues"
+  },
+  "homepage": "https://github.com/ArtSaves/dev7.6task#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
