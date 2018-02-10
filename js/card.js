@@ -9,7 +9,6 @@ function Card(id, name) {
 		var card = $('<li class="card"></li>');
 		var cardDeleteBtn = $('<button class="btn-delete btn btn-sm btn-danger">x</button>');
 		var cardDescription = $('<p class="card-description"></p>');
-		
 		cardDeleteBtn.click(function(){
 			self.removeCard();
 		});
@@ -17,7 +16,6 @@ function Card(id, name) {
 		card.append(cardDeleteBtn);
 		cardDescription.text(self.name);
 		card.append(cardDescription);
-		
 		return card;
 	}
 }
@@ -25,7 +23,6 @@ function Card(id, name) {
 Card.prototype = {
 	removeCard: function() {
 		var self = this;
-    
     	$.ajax({
 	    	url: baseUrl + '/card/' + self.id,
 	    	method: 'DELETE',
